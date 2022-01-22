@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style4.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">BS Collapse and accordion</a>
+
+    </nav>
+
+    <div class="container mt-5">
+
+        <!-- bs collapse -->
+        <!-- <button class="btn btn-success" data-toggle="collapse" data-target="#blue-card">Click Me</button>
+        <div class="collapse" id="blue-card">
+        <div class="card">
+            <div class="card-body bg-dark text-white">
+                <h2>BS Collapse</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex beatae, aut
+                    impedit quas excepturi magnam magni, unde soluta tempore optio labore et aliquid temporibus tempora
+                    quo officia ullam numquam animi, delectus ipsa laudantium facere sequi. Ipsam libero mollitia
+                    aspernatur.</p>
+            </div>
+        </div> -->
+
+
+        <!-- Accordion -->
+<div class="accordion" id="question-accordion"></div>
+
+<!-- question 1 -->
+<div class="card">
+    <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#question-1">
+        <h3>What is Bootstrap ?</h3>
+
+    </div>
+    <!-- below syntax collapse -->
+<div class="collapse" id="question-1">
+    <div class="card-body">
+<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, odio illo suscipit temporibus, deserunt totam sunt, pariatur ut laboriosam ullam harum accusantium iste dicta incidunt veniam velit odit consectetur voluptates cumque? Natus dignissimos illum temporibus fugiat eum nulla, hic pariatur?</p>
+    </div>
+</div>
+</div>
+<!-- question 2 -->
+
+<div class="card">
+    <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#question-2">
+        <h3>What is Bootstrap4?</h3>
+
+    </div>
+    <!-- below syntax collapse -->
+<div class="collapse" id="question-2" data-parent="#question-accordion">
+    <div class="card-body">
+<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, odio illo suscipit temporibus, deserunt totam sunt, pariatur ut laboriosam ullam harum accusantium iste dicta incidunt veniam velit odit consectetur voluptates cumque? Natus dignissimos illum temporibus fugiat eum nulla, hic pariatur?</p>
+    </div>
+</div>
+</div>
+<!-- question 3 -->
+<div class="card">
+    <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#question-3">
+        <h3>What is Bootstrap ?</h3>
+
+    </div>
+    <!-- below syntax collapse -->
+<div class="collapse" id="question-3" data-parent="#question-accordion">
+    <div class="card-body">
+<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, odio illo suscipit temporibus, deserunt totam sunt, pariatur ut laboriosam ullam harum accusantium iste dicta incidunt veniam velit odit consectetur voluptates cumque? Natus dignissimos illum temporibus fugiat eum nulla, hic pariatur?</p>
+    </div>
+</div>
+</div>
+<!-- question 4 -->
+<div class="card">
+    <div class="card-header bg-info text-white" data-toggle="collapse" data-target="#question-4">
+        <h3>What is Bootstrap ?</h3>
+
+    </div>
+    <!-- below syntax collapse -->
+<div class="collapse" id="question-4" data-parent="#question-accordion">
+    <div class="card-body">
+<p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, odio illo suscipit temporibus, deserunt totam sunt, pariatur ut laboriosam ullam harum accusantium iste dicta incidunt veniam velit odit consectetur voluptates cumque? Natus dignissimos illum temporibus fugiat eum nulla, hic pariatur?</p>
+    </div>
+</div>
+</div>
+    </div>
+
+        <div style="margin-bottom: 500px;"></div>
+
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
